@@ -1,0 +1,19 @@
+table td:nth-child(5),table td:nth-child(6) {
+    background:rgb(147,200,71);
+    color:#fff;
+    padding:5px;
+    box-shadow:0 0 0 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  table td:hover:nth-child(5),table td:hover:nth-child(6){
+    box-shadow:none;
+    margin :0 auto;
+    background: #808080;
+  }
+
+  table td:nth-child(4){
+      max-width: 250px;
+  }
